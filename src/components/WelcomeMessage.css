@@ -1,0 +1,13 @@
+.welcome-message-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-message-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .welcome-message-text {
+    font-size: 18px;
+  }

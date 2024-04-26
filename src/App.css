@@ -1,38 +1,91 @@
-.App {
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(216, 180, 141); 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(46, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #8b0000; 
+  color: #380000;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: 2px solid #8b0000;
+  border-radius: 20px; 
+  margin-right: 10px; 
+  width: 60%;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #8b0000; 
+  color: #f5f1f1;
+  border-radius: 20px; 
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #b22222; 
+}
+
+
+.recipe-list {
+  margin-top: 30px;
+}
+
+.recipe-list h2 {
+  color: #333;
+}
+
+.recipe-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-list li {
+  background-color: #ffe4e1; 
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-list li:last-child {
+  margin-bottom: 0;
+}
+
+.back-button {
+  margin-top: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.back-button button {
+  padding: 10px 20px;
+  background-color: #8b0000; 
+  color: #490000; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.back-button button:hover {
+  background-color: #b22222; 
 }
